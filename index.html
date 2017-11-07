@@ -18,7 +18,31 @@
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
-
+            h1 {
+              text-align: center; /*centers text for h1*/
+            }
+            .panel-default>.panel-heading {
+              text-align: center; /*centers text for all panel headings*/
+              color: black; /*changes panel heading text to black*/
+            }
+            .jumbotron>h1 {
+              color: white; /*changes jumbotron color to white*/
+            }
+            .snowflake{
+              color: #00FFFF; /* color of snowflake to light blue #00FFFF*/
+            }
+            .coffee{
+              color: #6F4E37; /* color of snowflake to coffee brown #6F4E37*/
+            }
+            .hourglass{
+              color: #C0C0C0; /* color of snowflake to silver #C0C0C0*/
+            }
+            .key{
+              color: #D4AF37; /* color of snowflake to silver #D4AF37*/
+            }
+            .paw{
+              color: #ff9999; /* color of snowflake to salmon #ff9999*/
+            }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -34,7 +58,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">Step 1</div>
         <div class="panel-body">
-          <h1><i class="fa fa-snowflake-o" aria-hidden="true"></i></h1>
+          <h1 class="snowflake"><i class="fa fa-snowflake-o" aria-hidden="true"></i></h1>
           Bill is introduced in the House of Representatives or Senate.
         </div>
       </div>
@@ -43,7 +67,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">Step 2</div>
         <div class="panel-body">
-          <h1><i class="fa fa-coffee" aria-hidden="true"></i></h1>
+          <h1 class="coffee"><i class="fa fa-coffee" aria-hidden="true"></i></h1>
           Bill goes to a committee, where it may be amended.
         </div>
       </div>
@@ -53,7 +77,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">Step 3</div>
       <div class="panel-body">
-        <h1><i class="fa fa-hourglass-end" aria-hidden="true"></i></h1>
+        <h1 class="hourglass"><i class="fa fa-hourglass-end" aria-hidden="true"></i></h1>
         Bill passes out of committee and is scheduled for floor debate.
       </div>
     </div>
@@ -62,7 +86,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">Step 4</div>
       <div class="panel-body">
-        <h1><i class="fa fa-key" aria-hidden="true"></i></h1>
+        <h1 class="key"><i class="fa fa-key" aria-hidden="true"></i></h1>
         Bill goes to the House or Senate floor, where it may be amended. If passed, it continues to the Governor.
       </div>
     </div>
@@ -71,7 +95,7 @@
     <div class="panel panel-default">
       <div class="panel-heading">Step 5</div>
       <div class="panel-body">
-        <h1><i class="fa fa-paw" aria-hidden="true"></i></h1>
+        <h1 class="paw"><i class="fa fa-paw" aria-hidden="true"></i></h1>
         Once the House and Senate have agreed on the bill's language, the governor signs it into law or vetoes it.
       </div>
     </div>
